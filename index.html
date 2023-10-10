@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>ISK - Contabilidad | Landing Page </title>
+</head>
+<body class="bg-[#DFE2E4]">
+    <div class="flex bg-[#011529] text-[#DFE2E4] justify-between max-[819px]:hidden">
+        <div class="basis-1/3 flex justify-center items-center gap-5 p-2">
+            <i class="fa-solid fa-message text-xl"></i>
+            <div>
+                <h1 class="font-bold text-lg">Hable con Nosotros</h1>
+                <p class="text-sm">(+54-384-3789090)</p>
+        </div>
+        </div>
+
+        <div class="basis-1/3 flex justify-center items-center gap-4 bg-[#213244]">
+            <i class="fa-solid fa-calendar-days text-xl"></i>
+            <div class="flex flex-col">
+            <h1 class="text-lg font-bold">Atención</h1>
+            <h1 class="text-sm">Segundo a Segundo 7:30 a 17 hs</h1>
+            </div>
+           
+        </div>
+
+
+        <div class="basis-1/3 flex justify-center items-center gap-4">
+
+            <i class="fa-solid fa-user text-xl"></i>
+            <button class="basis-1/3 text-[#011529] bg-[#DFE2E4] h-[50%] rounded-lg hover:bg-[#213244] hover:text-[#DFE2E4]text-lg">Clientes</button>
+        </div>
+    </div>
+
+    <nav class="flex justify-between items-center h-[100px]">
+        <div class="flex flex-col justify-center items-center hover:cursor-pointer p-3 animate__animated animate__fadeInLeft">
+            <h1 class="text-6xl font-bold underline">ISK</h1>
+            <p class="text-mg">Contabilidad</p>
+        </div>
+        <ul class="flex p-3 gap-9 items-center justify-center max-[819px]:flex-col max-[819px]:absolute max-[819px]:top-[99px] max-[819px]:bg-[#DFE2E4] max-[819px]:w-[100%] max-[819px]:items-end max-sm:p-6 z-10 max-[819px]:hidden animate__animated animate__fadeInDown" id="barraNav">
+            <li class="hover:cursor-pointer hover:underline">Inicio</li>
+            <li class="hover:cursor-pointer hover:underline">Sobre ISK</li>
+            <li class="hover:cursor-pointer hover:underline">Servicios</li>
+            <li class="hover:cursor-pointer hover:underline">Trabaja con Nosotros</li>
+            <li class="hover:cursor-pointer hover:underline">Contacto</li>
+            <button class="text-[#DFE2E4] w-[100px] h-[30px] bg-[#011529] rounded-lg hover:bg-[#213244] hover:text-[#DFE2E4]text-lg font-bold">Clientes</button>
+        </ul>
+        <i class="fa-solid fa-bars text-3xl text-[#011529] min-[819px]:hidden cursor-pointer hover:text-opacity-50 animate__animated animate__fadeInRight p-3" id="botonMenu"></i>
+        <i class="fa-solid fa-x text-3xl text-[#011529] min-[819px]:hidden cursor-pointer hover:text-opacity-50 animate__animated animate__fadeInRight left-[84.5%] absolute hidden p-3" id="botonCerrarMenu"></i>
+    </nav>
+    <header class="h-[60vh] p-9 flex flex-col justify-center text-[#011529] gap-5">
+        <div><h1 class="text-4xl w-[40%] font-bold max-sm:w-[100%] animate__animated animate__fadeInLeft">Nos enfocamos en ofrecer profesionalizmo y competencia</h1></div>
+        <div><p class="w-[40%] max-sm:w-[100%] animate__animated animate__fadeInLeft">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam veritatis officiis sapiente maiores cum repellat aliquid, nulla vero tenetur autem ipsa repellendus consequatur libero? Quaerat saepe suscipit distinctio officiis fugiat?</p></div>
+        <div><button class="text-[#DFE2E4] w-[160px] h-[35px] bg-[#011529] rounded-lg hover:bg-[#213244] hover:text-[#DFE2E4] text-lg font-bold animate__animated animate__fadeInUp ">Saber Más</button></div>
+    </header>
+    <div class="flex justify-around min-[819px]:relative max-[1500px]:bottom-[60px] min-[1500px]:bottom-[90px] flex-wrap p-5 gap-5 ">
+
+        <div class="flex flex-col bg-[#011529] text-[#DFE2E4] w-80 p-5 items-center rounded-lg" data-aos="fade-right">
+            <div><i class="fa-solid fa-user text-xl "></i></div>
+            <div class="text-xl font-bold">Confianza</div>
+            <div class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id explicabo doloribus architecto eum ratione maiores ducimus nihil inventore impedit ipsum reprehenderit veritatis perspiciatis placeat reiciendis excepturi totam, quibusdam in molestias.</div>
+        </div>
+
+        <div class="flex flex-col bg-[#011529] text-[#DFE2E4] w-80 p-3 items-center rounded-lg" data-aos="fade-up">
+            <div><i class="fa-solid fa-user text-xl "></i></div>
+            <div class="text-xl font-bold">Credibilidad</div>
+            <div class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id explicabo doloribus architecto eum ratione maiores ducimus nihil inventore impedit ipsum reprehenderit veritatis perspiciatis placeat reiciendis excepturi totam, quibusdam in molestias.</div>
+        </div>
+
+        <div class="flex flex-col bg-[#011529] text-[#DFE2E4] w-80 p-3 items-center rounded-lg" data-aos="fade-left">
+            <div><i class="fa-solid fa-user text-xl "></i></div>
+            <div class="text-xl font-bold">Etica</div>
+            <div class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id explicabo doloribus architecto eum ratione maiores ducimus nihil inventore impedit ipsum reprehenderit veritatis perspiciatis placeat reiciendis excepturi totam, quibusdam in molestias.</div>
+        </div>
+        </div>
+
+        <section class="servicios">
+            <h1 class="text-center text-4xl text-[#011529]">Servicios.</h1>
+            <p class="text-center text-lg text-[#808A94]">Conoce nuestro Portafolio de Servicios</p>
+            <div class="flex justify-around gap-5 items-around p-4 text-[#011529] flex-wrap">
+
+                <div class="flex flex-col w-[550px] gap-3 p-4" data-aos="flip-left">
+                    <i class="fa-solid fa-user text-3xl"></i>
+                    <div class="w-full">
+                    <div class="text-2xl font-bold">Asesoria Empresarial</div>
+                    <div class="text-justify text-[#A0A7AF]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia excepturi ullam voluptatum! Quibusdam, facilis, voluptatem suscipit vitae deleniti libero dolores, rem praesentium enim sunt nihil nobis repellat reiciendis odio obcaecati.
+
+                    </div>
+                    <div class="text-left underline hover:cursor-pointer">Saber más</div></div>
+                    
+                </div>
+
+
+                <div class="flex flex-col w-[550px] gap-3 p-4" data-aos="flip-left">
+                    <i class="fa-solid fa-user text-3xl"></i>
+                    <div class="w-full">
+                    <div class="text-2xl font-bold">Asesoria Empresarial</div>
+                    <div class="text-justify text-[#A0A7AF]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia excepturi ullam voluptatum! Quibusdam, facilis, voluptatem suscipit vitae deleniti libero dolores, rem praesentium enim sunt nihil nobis repellat reiciendis odio obcaecati.</div>
+                    <div class="text-left underline hover:cursor-pointer">Saber más</div></div>
+                    
+                </div>
+
+                <div class="flex flex-col  w-[550px] gap-3 p-4" data-aos="flip-left">
+                    <div class="w-full">
+                    <i class="fa-solid fa-user text-3xl"></i>
+                    <div class="text-2xl font-bold">Asesoria Empresarial</div>
+                    <div class="text-justify text-[#A0A7AF]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia excepturi ullam voluptatum! Quibusdam, facilis, voluptatem suscipit vitae deleniti libero dolores, rem praesentium enim sunt nihil nobis repellat reiciendis odio obcaecati.</div>
+                    <div class="text-left underline hover:cursor-pointer">Saber más</div></div>
+                    
+                </div>
+
+                <div class="flex flex-col w-[550px] gap-3 p-4" data-aos="flip-left">
+                    <i class="fa-solid fa-user text-3xl"></i>
+                    <div class="w-full">
+                    <div class="text-2xl font-bold">Asesoria Empresarial</div>
+                    <div class="text-justify text-[#A0A7AF]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia excepturi ullam voluptatum! Quibusdam, facilis, voluptatem suscipit vitae deleniti libero dolores, rem praesentium enim sunt nihil nobis repellat reiciendis odio obcaecati.</div>
+                    <div class="text-left underline hover:cursor-pointer">Saber más</div></div>
+                    
+                </div>
+
+                <div class="flex flex-col w-[550px] gap-3 p-4" data-aos="flip-left">
+                    <div class="w-full">
+                        <i class="fa-solid fa-user text-3xl"></i>
+                    <div class="text-2xl font-bold">Asesoria Empresarial</div>
+                    <div class="text-justify text-[#A0A7AF]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia excepturi ullam voluptatum! Quibusdam, facilis, voluptatem suscipit vitae deleniti libero dolores, rem praesentium enim sunt nihil nobis repellat reiciendis odio obcaecati.</div>
+                    <div class="text-left underline hover:cursor-pointer">Saber más</div></div>
+                    
+                </div>
+
+                <div class="flex flex-col w-[550px] gap-3 p-4" data-aos="flip-left">
+                    <i class="fa-solid fa-user text-3xl"></i>
+                    <div class="w-full">
+                    <div class="text-2xl font-bold">Asesoria Empresarial</div>
+                    <div class="text-justify text-[#A0A7AF]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia excepturi ullam voluptatum! Quibusdam, facilis, voluptatem suscipit vitae deleniti libero dolores, rem praesentium enim sunt nihil nobis repellat reiciendis odio obcaecati.</div>
+                    <div class="text-left underline hover:cursor-pointer">Saber más</div></div>
+                    
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacto flex w-full text-[#C0C5CA] p-5 max-sm:flex-col max-sm:items-center">
+        <div class="w-[55%] max-sm:w-full">
+            <form action="" class="p-4 w-full flex flex-col justify-center h-full gap-5" data-aos="fade-right">
+                <div>
+                <label for="" class="text-xl font-bold">Nombre:</label>
+                <input type="text" class="bg-transparent w-full border-2 border-[#011529] border-b-[#C0C5CA]">
+
+                </div>
+                
+                <div class="flex gap-4">
+                    <div class="w-[50%] flex flex-col gap-2">
+                    <label for="" class="text-xl font-bold">Email</label>
+                    <input type="email" class="bg-transparent w-full border-2 border-[#011529] border-b-[#C0C5CA]">
+                    </div>
+
+                    <div class="w-[50%] flex flex-col gap-2">
+                    <label for="" class="text-xl font-bold">Telefono</label>
+                    <input type="text" class="bg-transparent w-full border-2 border-[#011529] border-b-[#C0C5CA]">
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-2">
+                    <label for="" class="text-xl font-bold">Mensaje</label>
+                    <textarea name="" id="" cols="100" rows="10" class="bg-transparent w-full border-2 border-[#011529] border-b-[#C0C5CA]"></textarea>
+                </div>
+                <div>
+                    <input type="submit" class="text-[#213244] w-[170px] h-[40px] bg-[#DFE2E4] rounded-xl hover:bg-[#213244] hover:text-[#DFE2E4] text-lg font-bold" value="Enviar"/>
+                    
+                </div>
+            </form>
+        </div>
+        <div class="flex flex-col p-4 gap-20 justify-center" data-aos="fade-left">
+            <div>
+            <h1 class="text-4xl font-bold">Hable con nosotros</h1>
+            <p class="text-[#A0A7AF]">Nos Envia un mensaje rellenando el formulario, y estaremos en contacto lo mas rapido posible</p>
+            </div>
+            
+            <div>
+                <p class="text-[#A0A7AF]">Si prefiere, puede hacer una llamada atravez de este telefono</p>
+                <h1 class="text-4xl font-bold ">(47)30845500</h1>
+            </div>
+
+        </div>
+        </section>
+        <footer class="flex h-[300px] bg-[#41505F] max-sm:flex-col max-sm:justify-center max-sm:p-4 text-[#DFE2E4] max-sm:gap-5">
+            <div class="w-[50%] flex flex-col items-center justify-center max-sm:w-[100%]">
+                <h1 class="text-7xl font-bold underline">ISK</h1>
+                <p class="text-lg">Contabilidad</p>
+            </div>
+            <div class="flex flex-col items-center justify-center">
+                <h1 class="text-xl">CRC:SC-009492/0-0</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas adipisci vitae optio modi necessitatibus</p>
+                <p class="text-lg"><span class="font-bold">ISK Contaibilidad</span> &copy 2023 - Todos los derechos reservados</p>
+            </div>
+        </footer>
+
+        <script>
+            AOS.init();
+          </script>
+
+        <script src="index.js"></script>
+    
+</body>
+</html>
