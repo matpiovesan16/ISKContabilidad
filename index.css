@@ -1,5 +1,5 @@
 header{
-    background-image:url(img/hero.jpg);
+    background-image:url(img/hero.webp);
            background-size: cover;
            background-repeat: no-repeat;
            background-position: center center;
@@ -13,11 +13,10 @@ header{
             rgba(1,21,41,0.9),
             rgba(1,21,41,0.9),
             rgba(1,21,41,0.9))
-            ,url(img/contacto.jpg);
+            ,url(img/contacto.webp);
                background-size: cover;
                background-repeat: no-repeat;
                background-position: center center;
-               background-attachment:fixed ;
         }
 
 
